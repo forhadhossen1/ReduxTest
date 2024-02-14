@@ -1,13 +1,11 @@
+import Home from "./pages/Home";
 
-
-function App() {
-
-
+const App = () => {
   return (
-    <>
-      <h1 className="text-5xl font-bold text-center py-8 bg-purple-600">Redux Test</h1>
-    </>
-  )
-}
+    <div>
+      <Home></Home>
+    </div>
+  );
+};
 
-export default App
+export default App;
